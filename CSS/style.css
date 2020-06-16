@@ -1,0 +1,294 @@
+body {
+  background: #fff;
+  background-image: url(loginpage.jpg);
+
+}
+header {
+  border-style: ridge;
+  background: #000000;
+  font-family: red-serif;
+  font-size: 88px;
+  color: #800000;
+
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+ body{
+    font-family: 'roboto', sans-serif;
+    font-weight:300 !important;
+ }
+#message{
+  background: #66ff99;
+  font-size: 18px;
+  color: #993300;
+}
+
+
+
+table th {
+   color:#000;
+}
+td {
+   font-style: oblique;
+   color:#00a;
+}
+#saurav {
+  border: 1px dotted #0f0;
+  margin-right: 760px;
+}
+table{
+  background: #ffe6e6;
+  color: #ff238b;
+  text-align: center;
+  text-shadow: 1px 0px #000;
+  background-image: url(frontbanner.jpg);
+}
+
+
+a:hover, a.more-link.bolded-link:hover {
+
+  font-size: 15px;
+  color:#8f8;
+}
+.my-input{
+  background: #d5ffc2;
+  color: #0f8034;
+  outline:none;
+  float: right;
+}
+#admission-notice{
+  float:right;
+  background: #ff0;
+  border-style: double;
+  color:#8B0000;
+  margin-right:10px;
+  transition: block 100ms;
+  transition-delay: 1s;
+}
+#contact_us{
+  background-image: url("onesteplogo.jpg");
+}
+#contact_form
+{
+  position: relative;
+  border-style: dotted;
+  margin: 50px;
+  margin-top: 10px;
+ margin-right: 800px;
+ background: #40ff00;
+}
+#address{
+  border-style: groove;
+  font-size: 16px;
+  color: #000;
+  background: #ccff22;
+ float: right;
+}
+#mobile_no{
+  float: right;
+}
+#block{
+  margin:30px;
+}
+
+#sks{
+  border-style: solid;
+  margin-top: 63px;
+  background: #ffff00;
+}
+
+
+#signup
+{
+  border-style: double;
+  background: #ffaa00;
+  font-size: 16px;
+  color: #f00;
+  font-family: sans-serif;
+
+}
+#login_box
+{
+  position: relative;
+  margin: 5% auto;
+  margin-left: 180px;
+  margin-right: 400px;
+  height: 500px;
+  background: #fff;
+  box-shadow:0 2px 4px rgba(0, 0, 0, 0.6);
+}
+.left-box
+{
+         position: absolute;
+         top: 0;
+         left: 20px;
+         box-sizing: border-box;
+         width:200px;
+         height: 12px;
+}
+input[type="text"],
+input[type="password"]
+{
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 1px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #aaa;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+input[type="submit"]
+{
+  margin-bottom: 30px;
+  margin-left: 42px;
+  width: 120px;
+  height: 32px;
+  background: #f44336;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus
+{
+  background: #ff5722;
+  transition: 0.2s ease;
+}
+.right-box
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+  background-image: url(loginpage.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+.or
+{
+  position: absolute;
+  top: 200px;
+  left: 320px;
+  width: 40px;
+  height: 40px;
+  background: #efefef;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  line-height: 40px;
+  text-align: center;
+}
+.right-box .signinwith
+{
+  display: block;
+  color: #ff0;
+  margin-bottom: 60px;
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button.Social
+{
+  margin-bottom: 20px;
+  width: 220px;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 500;
+  transition: 0.2s ease;
+  cursor: pointer;
+
+}
+.facebook
+{
+   background: #32508e;
+}
+.twitter
+{
+    background: #55acee;
+}
+.googleplus
+{
+  background: #dd4b39;
+}
+#about_us
+{
+  margin: 0;
+  padding: 0;
+  background: #0000f0;
+  font-size: 16px;
+  color: #0f0f0f;
+  font-family: sans-serif;
+  font-weight: 100;
+  background-image: url(loginpage.jpg);
+}
+.whoweare
+{
+  text-decoration: underline;
+  color: #ff6374;
+  background: #000000;
+}
+.about_us
+{
+  box-sizing: border-box;
+  text-align: center;
+  font-style: bold;
+  top: 20px;
+  right: 300px;
+  display: block;
+  background-color: #aae;
+  color: #ffd;
+  border: 23px;
+}
+#about_us
+{
+  background: #ff0000;
+  font-weight: 600;
+  line-height: 36px;
+
+}
+#why_us
+{
+  text-align: center;
+background: #0080ff;
+  color: #ffffff;
+  font-family: sans-serif;
+ border-style: outset;
+ border-color: #030;
+}
+#header_title{
+  border-style: solid;
+  text-align: center;
+}
+#example{
+  border-style: solid;
+  margin-right: 280px;
+
+}
+#experiment th{
+border-style: solid;
+background: #ff008b;
+color: #ff0099;
+width: 380px;
+
+
+}
