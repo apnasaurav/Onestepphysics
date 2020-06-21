@@ -1,14 +1,17 @@
 body {
   background: #fff;
-  background-image: url(loginpage.jpg);
+  background-image: url("loginpage.jpg");
 
 }
 header {
   border-style: ridge;
-  background: #000000;
+  background: #b35900;
+  width: auto;
+  max-width: 100%;
+  height: auto;
   font-family: red-serif;
-  font-size: 88px;
-  color: #800000;
+  font-size: 45px;
+  color: #442727;
 
 
 }
@@ -17,29 +20,29 @@ header {
  body{
     font-family: 'roboto', sans-serif;
     font-weight:300 !important;
+    background: #fbfd8a;
+
  }
 #message{
-  background: #66ff99;
-  font-size: 18px;
+  font-size: 19px;
   color: #993300;
 }
 
 
 
 table th {
+  border-style: solid;
    color:#000;
 }
 td {
+  border: 2px solid #342b38;
    font-style: oblique;
    color:#00a;
 }
-#saurav {
-  border: 1px dotted #0f0;
-  margin-right: 760px;
-}
 table{
-  background: #ffe6e6;
-  color: #ff238b;
+  border: 2px solid #d92027;
+  background: #ff9900;
+  color: #1a0f00;
   text-align: center;
   text-shadow: 1px 0px #000;
   background-image: url(frontbanner.jpg);
@@ -49,60 +52,64 @@ table{
 a:hover, a.more-link.bolded-link:hover {
 
   font-size: 15px;
-  color:#8f8;
+  color:#0a97b0;
 }
 .my-input{
   background: #d5ffc2;
   color: #0f8034;
   outline:none;
   float: right;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+#onestepbanner{
+  width: 100%;
+  height: auto;
 }
 #admission-notice{
+  width: auto;
+  text-align: center;
   float:right;
-  background: #ff0;
-  border-style: double;
-  color:#8B0000;
-  margin-right:10px;
-  transition: block 100ms;
-  transition-delay: 1s;
+  background: #ff9900;
+  border-style: solid;
+  color:#1a0f00;
 }
 #contact_us{
-  background-image: url("onesteplogo.jpg");
+  width: auto;
+  max-width: 100%;
+  height: auto;
 }
 #contact_form
 {
-  position: relative;
-  border-style: dotted;
-  margin: 50px;
-  margin-top: 10px;
- margin-right: 800px;
- background: #40ff00;
+  border-style: solid;
+ background: #b3ff66;
 }
 #address{
-  border-style: groove;
-  font-size: 16px;
-  color: #000;
-  background: #ccff22;
- float: right;
-}
-#mobile_no{
-  float: right;
-}
-#block{
-  margin:30px;
+  border: 2px solid #000;
+  text-align: center;
+  padding: 0px;
+  font-size: 20px;
+  color: #4f3961;
+  background: #ccafaf;
 }
 
 #sks{
+  text-align: center;
   border-style: solid;
-  margin-top: 63px;
-  background: #ffff00;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  background: #7a7a52;
 }
 
 
 #signup
 {
-  border-style: double;
-  background: #ffaa00;
+  background: #996;
+  width: auto;
+  max-width: 100%;
+  height: auto;
   font-size: 16px;
   color: #f00;
   font-family: sans-serif;
@@ -110,22 +117,23 @@ a:hover, a.more-link.bolded-link:hover {
 }
 #login_box
 {
-  position: relative;
-  margin: 5% auto;
-  margin-left: 180px;
-  margin-right: 400px;
-  height: 500px;
-  background: #fff;
-  box-shadow:0 2px 4px rgba(0, 0, 0, 0.6);
+position: relative;
+margin: 5% auto;
+width: auto;
+max-width: 100%;
+height: auto;
+padding: 6px;
+background: #184d47;
 }
 .left-box
 {
-         position: absolute;
-         top: 0;
-         left: 20px;
-         box-sizing: border-box;
-         width:200px;
-         height: 12px;
+ position: absolute;
+ top: 70px;
+ left:6px;
+ box-sizing: border-box;
+
+ width: 300px;
+ height: 400px;
 }
 input[type="text"],
 input[type="password"]
@@ -168,23 +176,22 @@ input[type="submit"]:focus
 }
 .right-box
 {
-  position: absolute;
-  top: 0;
-  right: 0;
-  box-sizing: border-box;
-  padding: 40px;
-  width: 300px;
-  height: 400px;
-  background-image: url(loginpage.jpg);
-  background-size: cover;
-  background-position: center;
+position: relative;
+top: 70px;
+right: 15px;
+left: 280px;
+box-sizing: border-box;
+padding-right: 0;
+width: auto;
+max-width: 100%;
+height: auto;
 
 }
 .or
 {
   position: absolute;
-  top: 200px;
-  left: 320px;
+  top: 230px;
+  left: 240px;
   width: 40px;
   height: 40px;
   background: #efefef;
@@ -193,14 +200,15 @@ input[type="submit"]:focus
   line-height: 40px;
   text-align: center;
 }
-.right-box .signinwith
+ .signinwith
 {
-  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
   color: #ff0;
-  margin-bottom: 60px;
-  font-size: 28px;
-  color: #fff;
-  text-align: center;
+  font-size: 17px;
+  color: #000;
+
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -230,17 +238,7 @@ button.Social
 {
   background: #dd4b39;
 }
-#about_us
-{
-  margin: 0;
-  padding: 0;
-  background: #0000f0;
-  font-size: 16px;
-  color: #0f0f0f;
-  font-family: sans-serif;
-  font-weight: 100;
-  background-image: url(loginpage.jpg);
-}
+
 .whoweare
 {
   text-decoration: underline;
@@ -261,8 +259,9 @@ button.Social
 }
 #about_us
 {
-  background: #ff0000;
+  background: #ffb3b3;
   font-weight: 600;
+  color: #000;
   line-height: 36px;
 
 }
@@ -275,20 +274,46 @@ background: #0080ff;
  border-style: outset;
  border-color: #030;
 }
-#header_title{
-  border-style: solid;
-  text-align: center;
+
 }
 #example{
   border-style: solid;
   margin-right: 280px;
+  width: auto;
+  max-width: 100%;
+  height: auto;
 
 }
 #experiment th{
 border-style: solid;
-background: #ff008b;
-color: #ff0099;
+background: #f6cd61;
+color: #45046a;
 width: 380px;
 
 
+}
+#block{
+  padding: 50px;
+  margin-top: -30px;
+}
+button[type="submit"]
+{
+  background: #d32626;
+  color: #d4f3ef;
+}
+button[type="submit"]:hover,
+button[type="sbmit"]:focus
+{
+  background: #d32626;
+  transition: 0.3s ease;
+  cursor: pointer;
+  border: none;
+}
+input[type="message"]
+{
+  height: 89px;
+}
+.mobile-no
+{
+margin-left: 35px;
 }
